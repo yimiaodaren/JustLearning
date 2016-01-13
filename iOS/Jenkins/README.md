@@ -28,7 +28,7 @@
             + Pack application and build .ipa?   YES
             + .ipa filename pattern?    XXX_${VERSION}_${BUILD_DATE}
             + Output directory? /Users/xxx/Desktop
-   		  - Code signing & OS X keychain options
+        - Code signing & OS X keychain options
             + Code Signing Identity (直接输入证书名称,iPhone Developer: XXX (???))
             + Embedded Profile (输入profile文件全路径包括名称和扩展名)
             + [10.10系统之后需要修改的地方](http://stackoverflow.com/questions/32504355/error-itms-90339-this-bundle-is-invalid-the-info-plist-contains-an-invalid-ke/32762413#32762413)
