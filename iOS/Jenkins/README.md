@@ -46,11 +46,29 @@
 5. 立即构建项目,运行成功
 
 
+#####FTP问题
+* 开启Mac自带的ftp功能,可用[Mountain Tweaks](http://tweaksapp.com/download_mountain.html)
+* 增加jenkins插件 FTP publisher plugin
+* 在jenkins系统设置中FTP repository hosts设置相应内容
+    - Profile Name :名称 随便填
+    - hostname : localhost
+    - Port : 21
+    - TimeOut : 3000
+    - Root Repository Path : /Users/xxx 自己选择
+    - User Name : 自己Mac系统登录时的用户名
+    - Password : 自己Mac系统登录时的密码
+* 在jenkins项目配置中增加构建后操作 Publish artifacets to FTP
+    - FTP site : 选择刚才创建的
+    - Files to upload, Source : 需要上传的文件 如ipa/*.ipa
+    - Files to upload, Destination : ftp服务器中的文件夹
 
-未完成
-3. 出来的ipa包可以直接发送给测试邮件
-4. xcarchive文件提交到某一个git中或者ftp服务器保存起来？
 
+###### 未完成
+
+1. 出来的ipa包可以直接发送给测试邮件,或者fir等网站
+2. xcarchive文件提交到某一个git中或者ftp服务器保存起来
+3. 如果出现关于libswiftCore的错误请参考[->Link](http://stackoverflow.com/questions/25297638/how-do-i-codesign-a-swift-app-via-the-commandline)
+4. 签名一直出错中
 
 如果有哪位大神知道,可以联系我或者推荐我文章哦
 
