@@ -29,7 +29,8 @@
             + .ipa filename pattern?    XXX_${VERSION}_${BUILD_DATE}
             + Output directory? /Users/xxx/Desktop
         - Code signing & OS X keychain options
-            + Code Signing Identity (直接输入证书名称,iPhone Developer: XXX (???))
+            + 可以增加一个系统插件 Keychains and Provisioning Profiles Management
+            + Code Signing Identity
             + Embedded Profile (输入profile文件全路径包括名称和扩展名)
             + [10.10系统之后需要修改的地方](http://stackoverflow.com/questions/32504355/error-itms-90339-this-bundle-is-invalid-the-info-plist-contains-an-invalid-ke/32762413#32762413)
         - Advanced Xcode build options(很多都有英文说明)
@@ -68,8 +69,9 @@
 1. 出来的ipa包可以直接发送给测试邮件,或者fir等网站
 2. xcarchive文件提交到某一个git中或者ftp服务器保存起来
 3. 如果出现关于libswiftCore的错误请参考[->Link](http://stackoverflow.com/questions/25297638/how-do-i-codesign-a-swift-app-via-the-commandline)
-4. 签名一直出错中
-
-如果有哪位大神知道,可以联系我或者推荐我文章哦
+4. 签名一直出错中(2016.9.30已解决)
 
 
+参考链接 [->Link](http://www.cocoachina.com/ios/20160804/17281.html)
+
+ 
