@@ -12,6 +12,7 @@
 	* 在系统管理->管理插件中,安装
         - Git plugin , Git client plugin , Git server plugin
         - Xcode integration , SICCI for Xcode Plugin , Clang Scan-Build Plugin
+        - Keychains and Provisioning Profiles Management
     * 重启jenkins
 4. 新建项目
     * 创建一个free style的Item项目
@@ -73,5 +74,9 @@
 
 
 参考链接 [->Link](http://www.cocoachina.com/ios/20160804/17281.html)
+
+
+
+Custom xcodebuild arguments 
 
  
