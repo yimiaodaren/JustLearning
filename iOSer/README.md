@@ -8,4 +8,4 @@
 
 - [RSA](/RSA "RSA") 有关问题
 
-- [Mac Applications](/MacApp "Mac") 棒棒的程序
+- [Mac Applications](MacApp "Mac") 棒棒的程序
